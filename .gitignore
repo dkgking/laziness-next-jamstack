@@ -1,0 +1,16 @@
+node_modules
+.DS_Store
+.next
+out
+*.local
+.env
+.env.*
+!.env.example
+next-env.d.ts
+*.tsbuildinfo
+.wrangler
+.netlify
+.vercel
+.content-collections
+src/locales/*.js
+src/app/\[locale\]

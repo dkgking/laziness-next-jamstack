@@ -1,0 +1,4 @@
+# Static site: Netlify serves out (and 404.html for unknown paths).
+[build]
+  command = "bun run build"
+  publish = "out"

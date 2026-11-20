@@ -1,0 +1,18 @@
+{
+  "Language": "Language",
+  "Something went wrong": "Something went wrong",
+  "This page could not be shown. Try again in a moment.": "This page could not be shown. Try again in a moment.",
+  "Try again": "Try again",
+  "Back to home": "Back to home",
+  "Page not found": "Page not found",
+  "The page you are looking for does not exist.": "The page you are looking for does not exist.",
+  "No posts yet.": "No posts yet.",
+  "Draft": "Draft",
+  "Email": "Email",
+  "Website": "Website",
+  "All posts": "All posts",
+  "{minutes, plural, one {# min read} other {# min read}}": "{minutes, plural, one {# min read} other {# min read}}",
+  "On this page": "On this page",
+  "More posts": "More posts",
+  "Updated {date}": "Updated {date}"
+}

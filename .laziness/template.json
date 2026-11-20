@@ -1,0 +1,47 @@
+{
+	"name": "Next.js Jamstack site",
+	"description": "A static Next.js site exported to HTML: a blog, portfolio, or landing page, with Markdown content edited in Sveltia CMS at /admin. The sample blog is kept or removed to fit your site. Deploys to Cloudflare, Vercel, Netlify, or GitHub Pages.",
+	"image": ".laziness/cover.png",
+	"tags": [
+		"static",
+		"cms",
+		"blog",
+		"nextjs"
+	],
+	"prompts": [
+		"My personal blog with an About page",
+		"A portfolio with a Projects collection I can edit in the CMS",
+		"A landing page for my coffee shop with the menu editable in the CMS",
+		"A company blog in English and Vietnamese"
+	],
+	"locale": "en",
+	"setup": {
+		"questions": [
+			{
+				"id": "locales",
+				"header": "Languages",
+				"question": "Which languages should the site have?",
+				"multiSelect": true,
+				"options": [
+					{
+						"label": "English only",
+						"description": "Add more later by asking"
+					},
+					{
+						"label": "Vietnamese",
+						"description": "vi"
+					},
+					{
+						"label": "Japanese",
+						"description": "ja"
+					},
+					{
+						"label": "Chinese",
+						"description": "zh"
+					}
+				]
+			}
+		],
+		"instructions": "`locales`: the site starts in English. For every other language picked or typed, add it with the add-locale skill (two-letter codes only: vi, ja, zh, ...); for \"English only\" change nothing."
+	}
+}
